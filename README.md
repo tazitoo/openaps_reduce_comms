@@ -14,3 +14,6 @@ A fix:  use some python scripts to manage the data flow.  Save existing reports 
 The end goal:
 - improve communication robustness
 - provide historical data for further analysis (visualisation and predictive models)
+
+Current status:
+* bgHistoryDailyGap.py - working 
