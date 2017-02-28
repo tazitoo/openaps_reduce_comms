@@ -8,6 +8,8 @@ The issue:
 
 * My loop is entirely independent of any external sources - it runs entirely off-line.  The availability of wifi and even cell phone service is not guaranteed - but I will always have a need to manage T1D.  Part of that management is understanding how you have been responding to food and insulin in the past (many people use Nightscout for this...).  
 
+* Current wisdom on intend-to-bolus thinks that shareble is too unstable to use in offline "camping mode".  Using the current script to minimize the amount of data pulled from the CGM, shareble is typically stable for a week before needing to reboot.
+
 A fix:  use some python scripts to manage the data flow.  Save existing reports off to a CSV file, calculate how much extra data is needed for any new report, and fetch just that much from CGM/pump.
 
 The end goal:
@@ -16,3 +18,6 @@ The end goal:
 
 Current status:
 * bgHistoryDailyGap.py - working 
+* readProfile_v2.py - working
+* shell script (reduceComms.sh) that implements loop with minimal CGM communication - working
+
