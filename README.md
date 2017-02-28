@@ -1,5 +1,5 @@
 # openaps_reduce_comms
-Helper scripts to reduce communications with CGM and pump.
+Helper scripts for use with openaps to reduce communications with CGM and pump.
 
 I use openaps as a predictive model controller to manage my blood sugar/T1D.  I use advanced features (auto-sensitivity and advanced meal assist) that require relatively long historical records from my CGM and my pump.
 
