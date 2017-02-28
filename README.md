@@ -19,5 +19,6 @@ The end goal:
 Current status:
 * bgHistoryDailyGap.py - working 
 * readProfile_v2.py - working
-* shell script (reduceComms.sh) that implements loop with minimal CGM communication - working
+* reduceComms.sh - working
+* pumpHistoryDailyGap_v1.py - works on historical data, untested while looping
 
